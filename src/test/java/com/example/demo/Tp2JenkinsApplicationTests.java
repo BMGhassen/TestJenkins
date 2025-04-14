@@ -1,5 +1,8 @@
 package com.example.demo;
 
+
+import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -9,7 +12,7 @@ class Tp2JenkinsApplicationTests {
 	@Test
 	void contextLoads() {
 		System.out.println("Test passed!");
-        assertTrue(true); // Test toujours réussi
+        assertEquals(true,true); // Test toujours réussi
 	}
 
 }
